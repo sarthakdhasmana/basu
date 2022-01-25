@@ -1,0 +1,2 @@
+coursel image overlay {lora-60 bold
+below name-mont 50 bold}

@@ -1,0 +1,1053 @@
+/* background-color: rgb(61, 45, 150); color of the badge */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* *********************************NAVBAR CSS**************************** */
+.navbar1{
+    background-color: rgb(61, 45, 150) !important;
+    font-family:'Josefin Sans', sans-serif;
+}
+/*************************************** bootstrap alteration **********************************/
+.nav-link{
+    color: white !important;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-left: 35px;
+    font-weight: bold;
+}
+.navbar-brand{
+    font-size: 35px;
+    font-weight: bold;
+    color: white !important;
+}
+.ml-auto{
+    margin-left: auto !important;
+}
+.nav-link:hover{
+   background-color: white;
+   color: rgb(61, 45, 150) !important;
+   border: 4px solid white;
+   border-radius: 3px;
+}
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+.coursel_height{
+    height: 500px;
+}
+.counter-icon{
+    height: 90px;
+    width: 90px;
+    margin: auto;
+    display: block;
+}
+.counter-up{
+    background-image: url(../img/gradienta-m_7p45JfXQo-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+.counter-up .content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.content .box{
+    width: calc(25% - 30px);
+    border: 6px solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.icon{
+    display: block;
+}
+.counter{
+    text-align: center;
+    font-size: 27px;
+    color: white;
+    font-weight: 800;
+}
+.text{
+    text-align: center;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.top-acheiver-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;  
+    padding: 10px 40px;
+}
+.title-top-acheiver{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(38, 3, 104);
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.below-title-top-acheiver{
+    width: 7%;
+    background-color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    margin: auto;
+}
+.quote-top-acheiver{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:  23px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    color: rgb(97, 97, 99);
+}
+.card-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.acheiver{
+   border-radius: 10px;
+   background-color: #4ea9ff;
+   width: 340px;
+   margin: 30px 20px;
+   min-height: 300px;
+}
+.acheiver:hover{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: 0.4s;
+}
+.card-acheiver-photo{
+    padding: 27px 0px;
+}
+.acheiver-photo{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.acheiver-details{
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+.acheiver-details p{
+    margin-bottom: 0px !important;
+    color: #ffffff;
+}
+.position{
+    text-align: center;
+    margin-bottom: 27px;
+}
+.position span{
+    background: #d7f2fc;
+    color: #095392;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+}
+.courses{
+    background-image: url(../img/18647_new.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+}
+.course-news {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 24px 0px;
+}
+.highlighted-course-news{
+    color: maroon;
+}
+.top-img-course{
+    height: 260px;
+    width: 260px;
+}
+.img-over-smalltitle{
+    width: 100%;
+    text-align: center;
+}
+.small-title-course{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px 0px;
+}
+.small-title{
+    display: inline-block;
+    background-color: black;
+    color: rgb(233, 236, 25);
+    padding: 12px;
+    font-size: 28px;
+}
+.icon-content{
+    display: flex;
+    justify-content: center;
+    margin: 85px 0px;
+}
+.first-icon{
+    display: inline-block;
+    text-align: center;
+    margin: 6px 50px;
+}
+.fst-ico{
+    height: 130px;
+    width: 130px;
+}
+.ico-text{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.bold-title{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(61, 45, 150);
+    text-align: center;
+}
+.advantages-container{
+   background-image: url(../img/light-map-3.png);
+   background-size: 100% 100%;
+}
+.small-tagline{
+    font-size: 25px;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content-advantages{
+    padding: 20px 100px;
+    width: 100%;
+}
+.center-align{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.advantage-width-2 {
+    display: inline-block;
+    width: 49%;
+    padding: 16px 21px;
+    align-items: center;
+}
+.advantage-width-1{
+    width: 50%;
+    padding: 16px 21px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.advantage-img{
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+.advantage-title{
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.advantage-detail{
+    margin-left: 10px;
+    display: inline-block;
+    width: 440px;
+}
+.phone-application{
+    height: 700px;
+    width: 400px;
+}
+.promotion-container{
+    padding: 50px 60px;
+    background-color: black;
+}
+.img-phone-app{
+    display: inline-block;
+}
+.getit-app{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 50px 208px;
+}
+.get-it-playstore{
+  display: inline-block;
+  height: 120px;
+}
+.get-it-appstore{
+  display: inline-block;
+  margin-right: 18px;
+  height: 80px;
+  width: 240px;
+}
+.checked {
+    color: orange;
+}
+.user{
+    display: inline-block;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px 5px #888888;
+    padding: 20px 15px;
+    margin: 12px 40px;
+}
+.title-user-rating{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 20px 0px;
+}
+.comment{
+    text-align: left;
+    margin-top: 8px;
+    padding: 0px 15px;
+}
+.img-user{
+    float: left;
+    padding: 4px 10px;
+}
+.name{
+    display: inline-block;
+    margin: 4px 10px;
+    font-weight: 600;
+}
+.img-of-user{
+    height: 50px;
+    width: 50px;
+}
+.user-rating{
+    padding: 10px 30px;
+}
+.video-review{
+    width: 100%;
+    padding:10px 0px;
+}
+.user-video{
+    height: 500px;
+    width: 45%;
+    border-radius: 8px;
+    margin: 0px 35px;
+}
+.title-video{
+ font-size: 25px;
+ text-align: center;
+ font-weight: 700;
+ padding: 25px 0px;
+}
+.class-subjects{
+    background: url(../img/courses-bg.png);
+    background-size: 100% 100%;
+    padding: 20px 50px;
+}
+.courses-heading{
+    font-size: 38px;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 15px 0px;
+    background-color: rgb(61, 45, 150);
+    color: white;
+    border-radius: 10px;
+}
+.classes-container{
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+    margin: 20px 68px;
+    border-radius: 20px;
+    box-shadow: 12px 10px 7px grey;
+}
+.classes-container-bg-1{
+    background-color: #72f1f8;
+}
+.classes-container-bg-2{
+    background-color: #FF5349;
+}
+.course-title{
+    background-color: rgb(233, 171, 16);
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 25px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+.subjects{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 6px 0px;
+    border-radius: 6px;
+}
+.subject-li{
+  padding: 10px;
+  font-size: 18px;
+  list-style: none;
+}
+.subject-li span{
+    margin-right: 12px;
+    font-size: 30px;
+}
+
+/* ***************************About us page style css******************* */
+.content-about{
+    padding: 10px;
+}
+.about-img {
+    height: 500px;
+    width: 350px;
+    margin: 10px 25px;
+    display: inline-block;
+}
+.owner-details{
+    text-align: justify;
+    display: inline-block;
+}
+.justify{
+    display: inline-block;
+    vertical-align: top;
+}
+.message{
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.message-owner{
+    border: 2px solid black;
+    background-color: grey;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+.quote{
+  color: rgb(228, 227, 227);
+  padding: 0px 22px;
+}
+.width-70{
+    display: inline-block;
+    width: 65%;
+}
+
+/* ****************************FOOTER CSS******************************* */
+.container-footer{
+    background-color: rgb(58, 56, 56);
+    color: white;
+    width: 100%;
+    font-family:'Josefin Sans', sans-serif;
+    padding: 16px 16px !important;
+    text-align: left;
+    margin-top: 50px;
+}
+.left_container1{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    position: relative;
+}
+.left_container1 img{
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 20px;
+    height: 120px;
+    width: 120px;
+}
+.logo_img{
+    display: inline-block;
+}
+.footer_left_name{
+  text-align: center;
+  display: inline-block;
+  padding-top: 55px;
+
+}
+.below_heading{
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    font-size:32px;
+    text-align: center;
+}
+.company{
+    color: #92999f;
+    font-size: 13px;
+}
+
+.center_container2{
+    display: inline-block;
+    width: 38%;
+}
+.footer_location_logo{
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+}
+.location p{
+    display: inline-block;
+} 
+.common_things_footer_center{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer_telephone_logo{
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+}
+.telephone p{
+    display: inline-block;
+} 
+.footer_mail_logo{
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+}
+.email p{
+    display: inline-block;
+} 
+.right_container3{
+    width: 20%;
+    /* border: 2px solid green; */
+    display: inline-block;
+}
+#instagram_logo{
+    height: 45px;
+    width: 45px;
+}
+#facebook_logo{
+    height: 45px;
+    width: 45px;
+}
+#youtube_logo{
+    height: 45px;
+    width: 45px;
+}
+#justdial_logo{
+    height: 45px;
+    width: 45px;
+}
+.img_inlineblock{
+    display: inline-block;
+}
+.top_section_footer_right{
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+.top_section_footer_right span{
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer_right_icons{
+    margin-top: 25px;
+}
+.hidden_line{
+    display: none;
+    width: 50%;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 3px;
+    margin: auto;
+}
+
+
+
+/*************************MEDIA ALTERATION*****************************/
+@media screen and (max-width:1445px){
+    .logo_img{
+        display: block;
+        text-align: center;
+    }
+    .below_heading{
+        display: block;
+        text-align: center;
+    }
+    .footer_left_name{
+       padding-top: 0px;
+       width: 100%;
+    }
+    .left_container1 img{
+       margin-bottom: 7px;
+       height: 130px;
+       width: 130px;
+    }
+
+}
+
+
+
+/* Media query for large devices */
+@media (min-width: 992px) and (max-width:1199px) { 
+    .nav-link{
+        font-size: 17px;
+    }
+    .acheiver{
+        width: 250px;
+        margin: 30px 10px;
+    }
+    .first-icon{
+        margin: 0px 20px;
+    }
+    .content-advantages {
+        padding: 20px 0px;
+    }
+    .center-align {
+        width: 100%;
+    }
+    .advantage-detail{
+        width: 300px;
+    }
+    .user{
+        width: 370px;
+    }
+}
+
+/* Media query for medium devices */
+@media (min-width: 768px) and (max-width:991px) { 
+    .navbar-brand{
+        font-size: 30px;
+    }
+    .nav-link{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .hidden_line{
+        display: block;
+    }
+    .left_container1{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .center_container2{
+        margin-top: 10px;
+        margin-bottom: 14px;
+        display: block;
+        width: 100%;
+    }
+    .right_container3{
+        margin-bottom: 14px;
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+    }
+    .footer_location_logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_telephone_logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_mail_logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .common_things_footer_center{
+        text-align: center;
+        width: 100%;
+    }
+    .top_section_footer_right{
+        text-align: center;
+        width: 100%;
+    }
+    .footer_right_icons{
+        text-align: center;
+    }
+    .acheiver{
+        width: 210px;
+        margin: 25px 5px;
+    }
+    .counter {
+        font-size: 22px;
+    }
+    .text{
+        font-size: 22px;
+    }
+    .counter-icon {
+        height: 70px;
+        width: 70px;
+    }
+    .course-news{
+        font-size: 28px;
+        padding: 10px 0px;
+    }
+    .small-title-course{
+        margin: 10px 0px;
+    }
+    .small-title{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .fst-ico{
+        height: 90px;
+        width: 90px;
+    }
+    .ico-text{
+        font-size: 17px;
+    }
+    .first-icon{
+        margin: 0px 30px;
+    }
+    .content-advantages {
+        padding: 20px 0px;
+    }
+    .center-align {
+        width: 100%;
+    }
+    .advantage-title{
+       padding-top: 30px;
+    }
+    .advantage-detail{
+        width: 300px;
+    }
+    .user{
+        width: 250px;
+    }
+
+}
+
+
+/* Media query for Small devices */
+@media (min-width: 567px) and (max-width:767px) { 
+    .navbar-brand{
+        font-size:25px
+    }
+    .nav-link{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .hidden_line{
+        display: block;
+    }
+    .left_container1{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .center_container2{
+        margin-top: 10px;
+        margin-bottom: 14px;
+        display: block;
+        width: 100%;
+    }
+    .right_container3{
+        margin-bottom: 14px;
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+    }
+    .footer_location_logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_telephone_logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_mail_logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .common_things_footer_center{
+        text-align: center;
+        width: 100%;
+    }
+    .top_section_footer_right{
+        text-align: center;
+        width: 100%;
+    }
+    .footer_right_icons{
+        text-align: center;
+    }
+    .coursel_height{
+        height: 300px;
+    }
+    .top-acheiver-container {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .acheiver{
+        width: 400px;
+        margin: 20px 5px;    
+    }
+    .acheiver:hover{
+        position: relative;
+        margin: 20px 5px;
+    }
+    .acheiver-photo {
+        height: 180px;
+        width: 180px;
+    }
+    .quote-top-acheiver{
+        font-size: 20px;
+    }
+    .counter {
+        font-size:20px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .counter-icon {
+        height: 55px;
+        width: 55px;
+    }
+    .course-news{
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    .small-title-course{
+        margin: 10px 0px;
+    }
+    .small-title{
+        padding: 10px;
+        font-size: 17px;
+    }
+    .fst-ico{
+        height: 90px;
+        width: 90px;
+    }
+    .ico-text{
+        font-size: 17px;
+    }
+    .first-icon{
+        margin: 0px 10px;
+    }
+    .content-advantages {
+        padding: 20px 0px;
+    }
+    .center-align {
+        width: 100%;
+    }
+    .advantage-title{
+        padding-top: 0px;
+     }
+    .advantage-detail{
+        width: 380px;
+    }
+    .bold-title {
+        font-size: 40px;
+    }
+    .small-tagline {
+        font-size: 17px;
+    }
+    .advantage-width-2 {
+        display: block;
+        width: 100%;
+    }
+    .advantage-width-1 {
+        width: 100%;
+    }
+    .advantage-img {
+        height: 100px;
+        width: 100px;
+    }
+    .user{
+        width: auto;
+    }
+    .title-user-rating{
+        font-size: 40px;
+    }
+    .content .box{
+        margin: 0px 10px;
+    }
+    .user-video {
+        width: 100%;
+        margin: 0px;
+    }
+
+}
+
+/* Media query for Extra Small devices */
+@media (max-width:566px) { 
+    .navbar-brand{
+        font-size:20px
+    }
+    .nav-link{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .hidden_line{
+        display: block;
+    }
+    .left_container1{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .center_container2{
+        margin-top: 10px;
+        margin-bottom: 14px;
+        display: block;
+        width: 100%;
+    }
+    .right_container3{
+        margin-bottom: 14px;
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+    }
+    .footer_location_logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_telephone_logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_mail_logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .common_things_footer_center{
+        text-align: center;
+        width: 100%;
+    }
+    .top_section_footer_right{
+        text-align: center;
+        width: 100%;
+    }
+    .footer_right_icons{
+        text-align: center;
+    }
+    .coursel_height{
+        height: 200px;
+    }
+    .top-acheiver-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .quote-top-acheiver{
+        font-size: 18px;
+    }
+    .acheiver{
+        width: 250px;
+        margin: 30px 10px;
+    }
+    .acheiver:hover{
+        position: relative;
+        margin: 20px 5px;
+    }
+    .counter {
+        font-size:15px;
+    }
+    .content .box{
+        width: 110px;
+    }
+    .counter-icon {
+        height: 40px;
+        width: 40px;
+    }
+    .text{
+        font-size:15px;
+    }
+    .counter-icon {
+        height: 50px;
+        width: 50px;
+    }
+    .icon-content{
+        margin: 10px 0px;
+    }
+    .course-news {
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+    .small-title-course{
+        margin:0px;
+    }
+    .small-title{
+        padding: 10px;
+        font-size: 13px;
+    }
+    .fst-ico {
+        height: 50px;
+        width: 50px;
+    }
+    .ico-text {
+        font-size: 10px;
+    }    
+    .first-icon {
+        margin: 0px 5px;
+    }
+    .content-advantages {
+        padding: 20px 0px;
+    }
+    .center-align {
+        width: 100%;
+    }
+    .advantage-title{
+        padding-top: 0px;
+     }
+    .advantage-detail{
+        width: 250px;
+    }
+    .bold-title {
+        font-size: 40px;
+    }
+    .small-tagline {
+        font-size: 17px;
+    }
+    .advantage-width-2 {
+        display: block;
+        width: 100%;
+    }
+    .advantage-width-1 {
+        width: 100%;
+    }
+    .advantage-img {
+        height: 100px;
+        width: 100px;
+    }
+    .counter-up .content {
+        display: flex;
+    }
+    .content .box{
+        width: auto;
+        margin: 0px 10px;
+    }
+    .user-video {
+        width: 100%;
+        margin: 0px;
+    }
+
+}
